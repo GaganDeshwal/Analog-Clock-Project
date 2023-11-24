@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.clock
+{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock2.png) no-repeat;
+    background-size: 100%; 
+}
+
+#hr, #min, #sec 
+{
+    transform-origin: bottom;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hr
+{
+    
+    width: 2.5%;
+    height: 20%;
+    top: 30%;
+    left: 49.4%;
+    opacity: 0.8;
+}
+
+#min
+{
+    
+    width: 1.8%;
+    height: 30%;
+    top: 19%;
+    left: 49.7%;
+    opacity: 0.8;
+ 
+}
+
+#sec
+{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.8%;
+    opacity: 0.8;
+}
